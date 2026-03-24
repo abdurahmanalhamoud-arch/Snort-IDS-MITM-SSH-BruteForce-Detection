@@ -76,6 +76,13 @@ YouTube Video:
 
 ---
 
+## Project Demonstration
+This project is explained in detail in a technical video where the full implementation,
+attacks, and detection process are demonstrated.
+
+YouTube Video:
+https://youtu.be/G1zEwTVXHq8
+
 ## Author
 Abdulrhman Hamed Alhamoud  
 Computer Systems and Network Security Engineer  
